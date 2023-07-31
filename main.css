@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+  padding: 50px 0px 0px 200px;
+  background-image: linear-gradient(to right, orange, greenyellow, pink);
+}
+
+#div1 {
+  margin: 0px 0px 0px 35px;
+  border: #000 solid 2px;
+  width: 220px;
+  background-color: chartreuse;
+  border-radius: 30px;
+}
+
+#div2 {
+  margin: 50px 0px 0px 100px;
+  width: 120px;
+  height: 120px;
+  background: url("actvn_big_icon.png") no-repeat;
+}
+
+#div2:hover {
+  width: 120px;
+  height: 120px;
+  background: url("actvn_big_icon.png") no-repeat;
+  background-color: yellow;
+  border-radius: 120px;
+  cursor: pointer;
+}
+
+#khung {
+  margin: 0px;
+  padding: 40px 15px 15px 15px;
+  border: solid 2px #333;
+  width: 285px;
+  height: 410px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 8px black;
+  background-color: aquamarine;
+  border-color: blue;
+}
+.clear_all {
+  clear: both;
+}
+
+#ketqua {
+  margin: 20px 0px 30px 0px;
+  padding: 10px;
+  text-align: right;
+  width: 265px;
+  outline: none;
+  border: solid 4px #333;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px black;
+}
+
+.button {
+  margin: 0px 0px 15px 15px;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #666;
+  color: #fff;
+  width: 40px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 0px black;
+  cursor: pointer;
+}
+
+.button.first {
+  margin-left: 0px;
+}
+
+.button:hover {
+  background-color: #333;
+}
